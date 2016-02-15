@@ -1,0 +1,27 @@
+global-styling:
+  version: 8.0.0
+  css:
+    base:
+      includes/bootstrap/css/bootstrap.css: {}
+      includes/bootstrap/css/bootstrap-theme.css: {}
+      includes/fonts/oswald_regular/stylesheet.css: {}
+      includes/fontawesome/css/font-awesome.min.css: {}
+      includes/slick/slick.css: {}
+      includes/slick/slick-theme.css: {}
+      includes/flexslider/flexslider.css: {}
+      css/style.css: {}
+      css/slideshow.css: {}
+      css/responsive.css: {}
+  js:
+    js/jquery.smooth-scroll.js: {}
+    includes/flexslider/jquery.flexslider.js: {}
+    includes/jcarousel/jquery.jcarousel.min.js: {}
+    includes/slick/slick.min.js: {}
+    js/script.js: {}
+    includes/bootstrap/js/bootstrap.js: {}
+  dependencies:
+    - core/jquery
+    - core/drupal.ajax
+    - core/drupal
+    - core/drupalSettings
+    - core/jquery.once

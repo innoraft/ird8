@@ -1,0 +1,40 @@
+name: 'Btheme'
+type: theme
+base theme: classy
+description: 'Btheme is a premium Drupal 8 theme.'
+core: 8.x
+libraries:
+  - btheme/bootstrap-lib
+  - btheme/global-css
+
+# Regions
+regions:
+  header: Header
+  secondary_menu: 'Secondary menu'
+  breadcrumb: Breadcrumb  
+  highlighted: Highlighted
+  feature_box1: Featured box 1
+  feature_box2: Featured box 2
+  feature_box3: Featured box 3
+  content_top: Content Top
+  help: Help
+  content: Content
+  sidebar_first: First Sidebar
+  sidebar_second: Second Sidebar
+  footer_first: 'Footer first'
+  footer_second: 'Footer second'
+  footer_third: 'Footer third'
+  footer_fourth: 'Footer fourth'
+  footer_fifth: 'Footer fifth'
+
+# Features
+features:
+  - 'logo'
+  - 'name'
+  - 'slogan'
+  - 'node_user_picture'
+  - 'comment_user_picture'
+  - 'comment_user_verification'
+  - 'favicon'
+  - 'main_menu'
+  - 'secondary_menu'
